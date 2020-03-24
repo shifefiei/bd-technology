@@ -1,4 +1,4 @@
-package org.bd;
+package org.bd.hadoop;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
