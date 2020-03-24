@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>bd-hadoop</module>
+        <module>bd-zookeeper</module>
     </modules>
     <dependencies>
 
