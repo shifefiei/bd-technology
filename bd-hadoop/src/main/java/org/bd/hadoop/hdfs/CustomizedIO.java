@@ -1,4 +1,4 @@
-package org.bd.hadoop;
+package org.bd.hadoop.hdfs;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
