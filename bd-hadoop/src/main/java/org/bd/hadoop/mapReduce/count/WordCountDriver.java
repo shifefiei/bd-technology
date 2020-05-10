@@ -34,9 +34,9 @@ public class WordCountDriver {
 
         //设置数据输入、输出路径，注意：input 目录下一定要先放好文件，但是output目录不要自己创建，程序会自动创建好；
         // 每次重新跑程序时要先删除output目录
-        FileInputFormat.setInputPaths(job, new Path(args[0]));
+        FileInputFormat.setInputPaths(job, new Path("/Users/shifeifei/Work/Project/bd-technology/input/word.txt"));
 
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileOutputFormat.setOutputPath(job, new Path("/Users/shifeifei/Work/Project/bd-technology/output0"));
 
         // 7 提交
         boolean result = job.waitForCompletion(true);
